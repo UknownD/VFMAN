@@ -1,22 +1,27 @@
 {
-  "name": "Bylap.in",
-  "short_name": "Bylp",
-  "description": "Build and deploy the best web experiences with the AI Cloud",
+  "name": "Chiffrement Sécurisé",
+  "short_name": "Chiffrement",
+  "description": "Outil de chiffrement et déchiffrement de messages avec notepad intégré",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#1f1f1f",
+  "theme_color": "#1f1f1f",
+  "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://assets.vercel.com/image/upload/v1573246280/front/favicon/vercel/android-chrome-192x192.png",
+      "src": "/icon-light-32x32.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "32x32"
     },
     {
-      "src": "https://assets.vercel.com/image/upload/v1573246280/front/favicon/vercel/android-chrome-512x512.png",
+      "src": "/apple-icon.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "180x180",
+      "purpose": "any maskable"
     }
   ],
-  "id": "Bylp"
+  "id": "chiffrement-securise",
+  "categories": ["utilities", "productivity"],
+  "scope": "/",
+  "prefer_related_applications": false
 }
